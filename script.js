@@ -24,8 +24,8 @@ const initialTasks = [
 let tasksToAdd = 3;
 
 for (let i = 0; i < tasksToAdd; i++) {
-  const title = prompt("Enter title for task ${i + 1}:");
-  const description = prompt("Enter description for task ${i + 1}:");
+  const title = prompt(`Enter title for task ${i + 1}:`);
+  const description = prompt(`Enter description for task ${i + 1}:`);
 
   let status = prompt("Enter status (todo, doing, done):").toLowerCase();
 
